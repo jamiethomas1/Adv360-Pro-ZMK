@@ -22,7 +22,6 @@
 
             require-prior-idle-ms = <200>;
             quick-tap-ms = <300>;
-            retro-tap;
         };
 
         caps_word: caps_word {
