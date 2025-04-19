@@ -49,9 +49,9 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp N1         &kp N2      &kp N3       &kp N4       &kp N5  &tog 1                                                                              &mo 3        &kp N6  &kp N7       &kp N8       &kp N9      &kp N0      &kp MINUS
-&kp GRAVE   &kp SQT        &kp COMMA   &kp PERIOD   &kp P        &kp Y   &none                                                                               &none        &kp F   &kp G        &kp C        &kp R       &kp L       &kp BSLH
-&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none     &kp ESC  &kp LALT                     &kp LGUI                 &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S  &kp SQT
+&kp EQUAL   &kp N1         &kp N2      &kp N3       &kp N4       &kp N5  &tog 1                                                                              &mo 3        &kp N6  &kp N7       &kp N8       &kp N9      &kp N0      &kp HASH
+&kp GRAVE   &kp SQT        &kp COMMA   &kp PERIOD   &kp P        &kp Y   &none                                                                               &none        &kp F   &kp G        &kp C        &kp R       &kp L       &kp SLASH
+&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none     &kp ESC  &kp LALT                     &kp LGUI                 &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S  &kp MINUS
 &kp LSHFT   &kp SEMICOLON  &kp Q       &kp J        &kp K        &kp X                      &kp HOME                     &kp PG_UP                                        &kp B   &kp M        &kp W        &kp V       &kp Z       &kp RSHFT
 &mo 2       &none          &kp CAPS    &kp LEFT     &kp RIGHT            &kp BSPC  &kp DEL  &one_shot_shift 5 LSHFT      &one_shot_shift 5 RSHFT  &kp TAB    &lt 4 SPACE          &kp UP       &kp DOWN     &kp LBKT    &kp RBKT    &mo 2
             >;
