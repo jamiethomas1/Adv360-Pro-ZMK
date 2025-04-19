@@ -113,7 +113,7 @@
 &kp EXCLAMATION    &kp LEFT_BRACE  &kp SQT               &kp AT_SIGN            &kp RIGHT_BRACE   &kp QUESTION  &none                                                                       &none  &kp F   &kp G          &kp C        &kp R      &kp L      &kp BSLH
 &kp NON_US_HASH    &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK  &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &kp BACKSPACE  &kp TAB      &kp SPACE  &kp ENTER  &kp SQT
 &kp DOUBLE_QUOTES  &kp LESS_THAN   &kp PIPE2             &kp MINUS              &kp GREATER_THAN  &kp SLASH                                        &kp ASTERISK       &kp PG_UP                    &kp B   &kp DELETE     &kp LS(TAB)  &kp V      &kp Z      &kp RSHFT
-&kp TILDE          &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP         &kp DOWN     &kp LBKT   &kp RBKT   &mo 2
+&kp PIPE           &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP         &kp DOWN     &kp LBKT   &kp RBKT   &mo 2
             >;
         };
 
