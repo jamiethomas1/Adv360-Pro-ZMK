@@ -120,11 +120,11 @@
         cursor {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE       &kp INSERT  &tog 1                                                                      &mo 3  &kp N6  &kp N7       &kp N8       &kp N9         &kp N0       &kp MINUS
-&kp TAB     &kp LEFT_BRACE  &kp LC(Y)             &kp LC(Z)              &kp RIGHT_BRACE  &kp LC(X)   &none                                                                       &none  &kp F   &kp G        &kp C        &kp R          &kp L        &kp BSLH
-&caps_word  &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL              &kp LSHFT        &kp LC(C)   &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &hm RS(H) H  &hm RC(T) T  &hm LA(N) N    &hm LG(S) S  &kp SQT
-&kp LSHFT   &kp LC(A)       &select_line          &select_word           &kp LC(F)        &kp LC(V)                                      &kp ASTERISK       &kp PG_UP                    &trans  &kp HOME     &kp PAGE_UP  &kp PAGE_DOWN  &kp END      &kp RSHFT
-&mo 2       &kp LC(LS(G))   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(G)                    &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP       &kp DOWN     &kp LBKT       &kp RBKT     &mo 2
+&kp EQUAL   &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE       &kp INSERT  &tog 1                                                                      &mo 3  &kp N6  &kp N7    &kp N8        &kp N9         &kp N0     &kp MINUS
+&kp TAB     &kp LEFT_BRACE  &kp LC(Y)             &kp LC(Z)              &kp RIGHT_BRACE  &kp LC(X)   &none                                                                       &none  &kp F   &kp G     &kp C         &kp R          &kp L      &kp BSLH
+&caps_word  &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL              &kp LSHFT        &kp LC(C)   &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &kp LEFT  &kp UP_ARROW  &kp DOWN       &kp RIGHT  &kp SQT
+&kp LSHFT   &kp LC(A)       &select_line          &select_word           &kp LC(F)        &kp LC(V)                                      &kp ASTERISK       &kp PG_UP                    &trans  &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN  &kp END    &kp RSHFT
+&mo 2       &kp LC(LS(G))   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(G)                    &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP    &kp DOWN      &kp LBKT       &kp RBKT   &mo 2
             >;
         };
     };
