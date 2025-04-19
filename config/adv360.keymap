@@ -67,7 +67,7 @@
             bindings = <
 &kp EQUAL   &kp N1         &kp N2      &kp N3       &kp N4       &kp N5  &tog 1                                                                                          &mo 3        &kp N6  &kp N7       &kp N8       &kp N9      &kp N0      &kp HASH
 &kp GRAVE   &kp SQT        &kp COMMA   &kp PERIOD   &kp P        &kp Y   &none                                                                                           &none        &kp F   &kp G        &kp C        &kp R       &kp L       &kp SLASH
-&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none            &kp ESC       &kp LALT                     &kp LGUI                 &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S  &kp MINUS
+&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none            &kp ESC       &mo 6                        &lt 6 RIGHT_GUI          &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S  &kp MINUS
 &kp LSHFT   &kp SEMICOLON  &kp Q       &kp J        &kp K        &kp X                                  &kp HOME                     &kp PG_UP                                        &kp B   &kp M        &kp W        &kp V       &kp Z       &kp RSHFT
 &mo 2       &none          &kp CAPS    &kp LEFT     &kp RIGHT            &lt 5 BACKSPACE  &lt 1 DELETE  &one_shot_shift 5 LSHFT      &one_shot_shift 5 RSHFT  &kp TAB    &lt 4 SPACE          &kp UP       &kp DOWN     &kp LBKT    &kp RBKT    &mo 2
             >;
@@ -128,7 +128,7 @@
             >;
         };
 
-        layer_6 {
+        media {
             bindings = <
 &trans  &trans  &trans  &kp C_PREV  &kp C_NEXT  &kp C_PP  &trans                                      &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &trans
 &trans  &trans  &trans  &trans      &trans      &trans    &trans                                      &trans  &trans      &trans        &trans        &trans  &trans  &trans
