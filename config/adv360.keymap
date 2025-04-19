@@ -67,11 +67,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp N1         &kp N2      &kp N3       &kp N4       &kp N5  &tog 1                                                                                          &mo 3        &kp N6  &kp N7       &kp N8            &kp N9             &kp N0      &kp HASH
-&kp GRAVE   &kp SQT        &kp COMMA   &kp PERIOD   &kp P        &kp Y   &none                                                                                           &none        &kp F   &kp G        &kp C             &kp R              &kp L       &kp SLASH
-&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none            &kp ESC       &mo 6                        &lt 6 RIGHT_GUI          &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T       &hm LALT N         &hm RGUI S  &kp MINUS
-&kp LSHFT   &kp SEMICOLON  &kp Q       &kp J        &kp K        &kp X                                  &kp HOME                     &kp PG_UP                                        &kp B   &kp M        &kp W             &kp V              &kp Z       &kp RSHFT
-&mo 2       &none          &kp CAPS    &kp LEFT     &kp RIGHT            &lt 5 BACKSPACE  &lt 1 DELETE  &one_shot_shift 5 LSHFT      &one_shot_shift 5 RSHFT  &kp TAB    &lt 4 SPACE          &none        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none       &mo 2
+&kp EQUAL   &kp N1         &kp N2      &kp N3       &kp N4       &kp N5  &tog 1                                                                                          &mo 3        &kp N6  &kp N7       &kp N8       &kp N9      &kp N0      &kp HASH
+&kp GRAVE   &kp SQT        &kp COMMA   &kp PERIOD   &kp P        &kp Y   &none                                                                                           &none        &kp F   &kp G        &kp C        &kp R       &kp L       &kp SLASH
+&caps_word  &hm LGUI A     &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I   &none            &kp ESC       &mo 6                        &lt 6 RIGHT_GUI          &kp ENTER  &none        &kp D   &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S  &kp MINUS
+&kp LSHFT   &kp SEMICOLON  &kp Q       &kp J        &kp K        &kp X                                  &kp HOME                     &kp PG_UP                                        &kp B   &kp M        &kp W        &kp V       &kp Z       &kp RSHFT
+&mo 2       &none          &kp CAPS    &kp LEFT     &kp RIGHT            &lt 5 BACKSPACE  &lt 1 DELETE  &one_shot_shift 5 LSHFT      &one_shot_shift 5 RSHFT  &kp TAB    &lt 4 SPACE          &none        &kp LBKT     &kp RBKT    &none       &mo 2
             >;
         };
 
@@ -115,7 +115,7 @@
 &kp EXCLAMATION    &kp LEFT_BRACE  &kp SQT               &kp AT_SIGN            &kp RIGHT_BRACE   &kp QUESTION  &none                                                                       &none  &kp F   &kp G          &kp C        &kp R      &kp L      &kp BSLH
 &kp NON_US_HASH    &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK  &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &kp BACKSPACE  &kp TAB      &kp SPACE  &kp ENTER  &kp SQT
 &kp DOUBLE_QUOTES  &kp LESS_THAN   &kp PIPE2             &kp MINUS              &kp GREATER_THAN  &kp SLASH                                        &kp ASTERISK       &kp PG_UP                    &kp B   &kp DELETE     &kp LS(TAB)  &kp V      &kp Z      &kp RSHFT
-&kp PIPE           &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP         &kp DOWN     &kp LBKT   &kp RBKT   &mo 2
+&kp PIPE           &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &trans         &trans       &trans     &trans     &mo 2
             >;
         };
 
@@ -126,7 +126,7 @@
 &kp TAB     &kp LEFT_BRACE  &kp LC(Y)             &kp LC(Z)              &kp RIGHT_BRACE  &kp LC(X)   &none                                                                       &none  &kp F   &kp G     &kp C         &kp R          &kp L      &kp BSLH
 &caps_word  &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL              &kp LSHFT        &kp LC(C)   &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &kp LEFT  &kp UP_ARROW  &kp DOWN       &kp RIGHT  &kp SQT
 &kp LSHFT   &kp LC(A)       &select_line          &select_word           &kp LC(F)        &kp LC(V)                                      &kp ASTERISK       &kp PG_UP                    &trans  &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN  &kp END    &kp RSHFT
-&mo 2       &kp LC(LS(G))   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(G)                    &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP    &kp DOWN      &kp LBKT       &kp RBKT   &mo 2
+&mo 2       &kp LC(LS(G))   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(G)                    &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &trans    &trans        &trans         &trans     &mo 2
             >;
         };
 
