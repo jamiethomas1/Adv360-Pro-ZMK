@@ -43,6 +43,22 @@
         };
     };
 
+    macros {
+        select_line: select_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp HOME &kp LS(END)>;
+            label = "SELECT_LINE";
+        };
+
+        select_word: select_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(RIGHT) &kp LA(LEFT) &kp LA(LS(RIGHT))>;
+            label = "SELECT_WORD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -106,8 +122,8 @@
             bindings = <
 &kp EQUAL   &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA     &tog 1                                                                      &mo 3  &kp N6  &kp N7       &kp N8       &kp N9       &kp N0       &kp MINUS
 &kp TAB     &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp Y         &none                                                                       &none  &kp F   &kp G        &kp C        &kp R        &kp L        &kp BSLH
-&caps_word  &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK  &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &hm RS(H) H  &hm RC(T) T  &hm LA(N) N  &hm LG(S) S  &kp SQT
-&kp LSHFT   &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH                                        &kp ASTERISK       &kp PG_UP                    &kp B   &kp M        &kp W        &kp V        &kp Z        &kp RSHFT
+&caps_word  &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL              &kp LSHFT         &kp ASTERISK  &none        &kp NON_US_BACKSLASH  &kp PERIOD         &kp LGUI   &kp ENTER  &none  &kp D   &hm RS(H) H  &hm RC(T) T  &hm LA(N) N  &hm LG(S) S  &kp SQT
+&kp LSHFT   &kp LC(A)       &select_line          &select_word           &kp GREATER_THAN  &kp SLASH                                        &kp ASTERISK       &kp PG_UP                    &kp B   &kp M        &kp W        &kp V        &kp Z        &kp RSHFT
 &mo 2       &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                        &kp PERCENT  &kp COLON             &kp SEMICOLON      &none      &kp TAB    &none          &kp UP       &kp DOWN     &kp LBKT     &kp RBKT     &mo 2
             >;
         };
